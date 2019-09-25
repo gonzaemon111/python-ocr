@@ -15,7 +15,7 @@ tool = tools[0]
 print(tool)
 
 txt = tool.image_to_string( # ここでOCRの対象や言語，オプションを指定する
-    Image.open('test.png'),
+    Image.open('test3.jpg'),
     lang='eng',
     builder=pyocr.builders.TextBuilder()
 )
